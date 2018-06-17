@@ -1,9 +1,4 @@
-// SUBMIT
 public class BTree implements BTreeInterface {
-
-	// ///////////////////BEGIN DO NOT CHANGE ///////////////////
-	// ///////////////////BEGIN DO NOT CHANGE ///////////////////
-	// ///////////////////BEGIN DO NOT CHANGE ///////////////////
 	private BNode root;
 	private final int t;
 
@@ -59,11 +54,6 @@ public class BTree implements BTreeInterface {
 		return true;
 	}
 	
-	// ///////////////////DO NOT CHANGE END///////////////////
-	// ///////////////////DO NOT CHANGE END///////////////////
-	// ///////////////////DO NOT CHANGE END///////////////////
-
-
 	@Override
 	public Block search(int key) {
 		return root.search(key);
