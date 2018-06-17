@@ -1,11 +1,7 @@
 import java.util.ArrayList;
 
-//SUBMIT
 public class BNode implements BNodeInterface {
 
-	// ///////////////////BEGIN DO NOT CHANGE ///////////////////
-	// ///////////////////BEGIN DO NOT CHANGE ///////////////////
-	// ///////////////////BEGIN DO NOT CHANGE ///////////////////
 	private final int t;
 	private int numOfBlocks;
 	private boolean isLeaf;
@@ -152,11 +148,6 @@ public class BNode implements BNodeInterface {
 				+ isLeaf + ", blocksList=" + blocksList + ", childrenList="
 				+ childrenList + "]";
 	}
-
-	// ///////////////////DO NOT CHANGE END///////////////////
-	// ///////////////////DO NOT CHANGE END///////////////////
-	// ///////////////////DO NOT CHANGE END///////////////////
-	
 	
 	
 	@Override
